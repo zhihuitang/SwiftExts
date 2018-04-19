@@ -138,7 +138,7 @@
 		028F99C820887946008E154D /* SwiftExts */ = {
 			isa = PBXGroup;
 			children = (
-				028F99ED20887962008E154D /* Support files */,
+				028F99ED20887962008E154D /* Supporting files */,
 				028F99EC2088795D008E154D /* Classes */,
 			);
 			path = SwiftExts;
@@ -166,13 +166,13 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		028F99ED20887962008E154D /* Support files */ = {
+		028F99ED20887962008E154D /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
 				028F99C920887946008E154D /* SwiftExts.h */,
 				028F99CA20887946008E154D /* Info.plist */,
 			);
-			path = "Support files";
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 		028F99F92088799A008E154D /* Example */ = {
@@ -614,8 +614,9 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SwiftExts/Info.plist;
+				INFOPLIST_FILE = "SwiftExts/Supporting files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -641,8 +642,9 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SwiftExts/Info.plist;
+				INFOPLIST_FILE = "SwiftExts/Supporting files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -699,6 +701,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RYYCVPYKXT;
 				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -717,6 +720,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RYYCVPYKXT;
 				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
