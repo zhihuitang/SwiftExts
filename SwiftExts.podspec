@@ -80,7 +80,7 @@ Extensions collection for Swift language
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "git@github.com:zhihuitang/SwiftExts.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/zhihuitang/SwiftExts.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
