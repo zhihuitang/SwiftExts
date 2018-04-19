@@ -9,7 +9,7 @@
 import Foundation
 import MapKit
 
-extension MKMapView {
+public extension MKMapView {
     func zoomToUserLocation() {
         guard let coordinate = userLocation.location?.coordinate else { return }
         let region = MKCoordinateRegionMakeWithDistance(coordinate, 10000, 10000)

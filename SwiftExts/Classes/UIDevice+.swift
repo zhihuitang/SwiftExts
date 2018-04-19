@@ -9,7 +9,7 @@
 import Foundation
 
 
-extension UIDevice {
+public extension UIDevice {
     func MBFormatter(_ bytes: Int64) -> String {
         let formatter = ByteCountFormatter()
         formatter.allowedUnits = ByteCountFormatter.Units.useMB

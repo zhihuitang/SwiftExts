@@ -51,11 +51,11 @@
 		028F99D420887946008E154D /* SwiftExtsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExtsTests.swift; sourceTree = "<group>"; };
 		028F99D620887946008E154D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		028F99EE2088796C008E154D /* UIDevice+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+.swift"; sourceTree = "<group>"; };
-		028F99EF2088796C008E154D /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
-		028F99F02088796C008E154D /* MKMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKMapView.swift; sourceTree = "<group>"; };
+		028F99EF2088796C008E154D /* FileManager+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+.swift"; sourceTree = "<group>"; };
+		028F99F02088796C008E154D /* MKMapView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKMapView+.swift"; sourceTree = "<group>"; };
 		028F99F12088796C008E154D /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
 		028F99F22088796C008E154D /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
-		028F99F32088796C008E154D /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		028F99F32088796C008E154D /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
 		028F99F82088799A008E154D /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		028F99FA2088799A008E154D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		028F99FC2088799B008E154D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -157,11 +157,11 @@
 			isa = PBXGroup;
 			children = (
 				028F99F12088796C008E154D /* Date+.swift */,
-				028F99EF2088796C008E154D /* FileManager.swift */,
-				028F99F02088796C008E154D /* MKMapView.swift */,
+				028F99EF2088796C008E154D /* FileManager+.swift */,
+				028F99F02088796C008E154D /* MKMapView+.swift */,
 				028F99F22088796C008E154D /* String+.swift */,
 				028F99EE2088796C008E154D /* UIDevice+.swift */,
-				028F99F32088796C008E154D /* UIViewController.swift */,
+				028F99F32088796C008E154D /* UIViewController+.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";

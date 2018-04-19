@@ -9,7 +9,7 @@
 import Foundation
 
 
-extension Date {
+public extension Date {
     var millisecondsSince1970:Int {
         return Int((self.timeIntervalSince1970 * 1000.0).rounded())
     }
@@ -39,7 +39,7 @@ extension Date {
 }
 
 
-extension Formatter {
+public extension Formatter {
     static let iso8601: DateFormatter = {
         let formatter = DateFormatter()
         formatter.calendar = Calendar(identifier: .iso8601)
