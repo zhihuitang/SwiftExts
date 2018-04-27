@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0246720C2093507B000E3A7F /* NSData+SHA.h in Headers */ = {isa = PBXBuildFile; fileRef = 0246720A2093507B000E3A7F /* NSData+SHA.h */; };
+		0246720D2093507B000E3A7F /* NSData+SHA.m in Sources */ = {isa = PBXBuildFile; fileRef = 0246720B2093507B000E3A7F /* NSData+SHA.m */; };
 		028F99D020887946008E154D /* SwiftExts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 028F99C620887945008E154D /* SwiftExts.framework */; };
 		028F99D520887946008E154D /* SwiftExtsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F99D420887946008E154D /* SwiftExtsTests.swift */; };
 		028F99D720887946008E154D /* SwiftExts.h in Headers */ = {isa = PBXBuildFile; fileRef = 028F99C920887946008E154D /* SwiftExts.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -44,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0246720A2093507B000E3A7F /* NSData+SHA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SHA.h"; sourceTree = "<group>"; };
+		0246720B2093507B000E3A7F /* NSData+SHA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SHA.m"; sourceTree = "<group>"; };
 		028F99C620887945008E154D /* SwiftExts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftExts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		028F99C920887946008E154D /* SwiftExts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftExts.h; sourceTree = "<group>"; };
 		028F99CA20887946008E154D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -156,6 +160,8 @@
 		028F99EC2088795D008E154D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0246720A2093507B000E3A7F /* NSData+SHA.h */,
+				0246720B2093507B000E3A7F /* NSData+SHA.m */,
 				028F99F12088796C008E154D /* Date+.swift */,
 				028F99EF2088796C008E154D /* FileManager+.swift */,
 				028F99F02088796C008E154D /* MKMapView+.swift */,
@@ -213,6 +219,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0246720C2093507B000E3A7F /* NSData+SHA.h in Headers */,
 				028F99D720887946008E154D /* SwiftExts.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +414,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0246720D2093507B000E3A7F /* NSData+SHA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
