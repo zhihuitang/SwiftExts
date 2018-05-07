@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		0246720C2093507B000E3A7F /* NSData+SHA.h in Headers */ = {isa = PBXBuildFile; fileRef = 0246720A2093507B000E3A7F /* NSData+SHA.h */; };
 		0246720D2093507B000E3A7F /* NSData+SHA.m in Sources */ = {isa = PBXBuildFile; fileRef = 0246720B2093507B000E3A7F /* NSData+SHA.m */; };
+		025566B820A09E5000BA3801 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F99F12088796C008E154D /* Date+.swift */; };
+		025566B920A09E5000BA3801 /* FileManager+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F99EF2088796C008E154D /* FileManager+.swift */; };
+		025566BA20A09E5000BA3801 /* MKMapView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F99F02088796C008E154D /* MKMapView+.swift */; };
+		025566BB20A09E5000BA3801 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F99F22088796C008E154D /* String+.swift */; };
+		025566BC20A09E5000BA3801 /* UIDevice+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F99EE2088796C008E154D /* UIDevice+.swift */; };
+		025566BD20A09E5000BA3801 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F99F32088796C008E154D /* UIViewController+.swift */; };
 		028F99D020887946008E154D /* SwiftExts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 028F99C620887945008E154D /* SwiftExts.framework */; };
 		028F99D520887946008E154D /* SwiftExtsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028F99D420887946008E154D /* SwiftExtsTests.swift */; };
 		028F99D720887946008E154D /* SwiftExts.h in Headers */ = {isa = PBXBuildFile; fileRef = 028F99C920887946008E154D /* SwiftExts.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -414,7 +420,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				025566BD20A09E5000BA3801 /* UIViewController+.swift in Sources */,
+				025566B920A09E5000BA3801 /* FileManager+.swift in Sources */,
+				025566BC20A09E5000BA3801 /* UIDevice+.swift in Sources */,
 				0246720D2093507B000E3A7F /* NSData+SHA.m in Sources */,
+				025566BB20A09E5000BA3801 /* String+.swift in Sources */,
+				025566B820A09E5000BA3801 /* Date+.swift in Sources */,
+				025566BA20A09E5000BA3801 /* MKMapView+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -669,6 +681,7 @@
 		028F99DE20887946008E154D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RYYCVPYKXT;
 				INFOPLIST_FILE = SwiftExtsTests/Info.plist;
@@ -687,6 +700,7 @@
 		028F99DF20887946008E154D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RYYCVPYKXT;
 				INFOPLIST_FILE = SwiftExtsTests/Info.plist;
